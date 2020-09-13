@@ -8,11 +8,12 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 // addnew
-
+import login from './components/login.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    login
   }
 }
 </script>
